@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/angular_quill.iml" filepath="$PROJECT_DIR$/.idea/angular_quill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/angular_quill_example.iml" filepath="$PROJECT_DIR$/angular_quill_example.iml" />
     </modules>
   </component>
 </project>
