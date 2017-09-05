@@ -1,6 +1,6 @@
 name: angular_quill_example
 description: Quill example
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/adamlofts/angular_quill
 author: Adam Lofts <adam.lofts@gmail.com>
 
@@ -8,15 +8,16 @@ environment:
   sdk: '>=1.23.0 <2.0.0'
 
 dependencies:
-  angular2: ^3.0.0
+  angular: ^4.0.0
+  angular_forms: ^1.0.0
   browser: ^0.10.0
   dart_to_js_script_rewriter: ^1.0.1
-  angular_quill: ^0.0.4
+  angular_quill: ^0.0.6
 
 transformers:
-- angular2:
+- angular:
     entry_points: web/main.dart
-- angular2/transform/reflection_remover:
+- angular/transform/reflection_remover:
     $include: test/**_test.dart
 - dart_to_js_script_rewriter
 

@@ -7,24 +7,30 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.30.0+2"
-  angular2:
+  angular:
     description:
-      name: angular2
+      name: angular
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.1.0"
+    version: "4.0.0"
+  angular_compiler:
+    description:
+      name: angular_compiler
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.3.0"
+  angular_forms:
+    description:
+      name: angular_forms
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   angular_quill:
     description:
       name: angular_quill
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.0.4"
-  archive:
-    description:
-      name: archive
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.29"
+    version: "0.0.6"
   args:
     description:
       name: args
@@ -54,13 +60,13 @@ packages:
       name: build
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.9.3"
+    version: "0.10.0+1"
   build_barback:
     description:
       name: build_barback
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.2"
+    version: "0.4.0"
   charcode:
     description:
       name: charcode
@@ -108,7 +114,7 @@ packages:
       name: csslib
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.13.7+1"
+    version: "0.14.0"
   dart_style:
     description:
       name: dart_style
@@ -121,12 +127,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.3"
-  fixnum:
-    description:
-      name: fixnum
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.10.5"
   front_end:
     description:
       name: front_end
@@ -192,19 +192,13 @@ packages:
       name: meta
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.5"
+    version: "1.1.1"
   package_config:
     description:
       name: package_config
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.1"
-  pageloader:
-    description:
-      name: pageloader
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.2.6"
   path:
     description:
       name: path
@@ -223,24 +217,24 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.3.1"
-  protobuf:
-    description:
-      name: protobuf
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.5.4"
   quiver:
     description:
       name: quiver
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.25.0"
+  quiver_hashcode:
+    description:
+      name: quiver_hashcode
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   source_gen:
     description:
       name: source_gen
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.5.8"
+    version: "0.7.1"
   source_maps:
     description:
       name: source_maps
@@ -265,18 +259,18 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.2"
+  tuple:
+    description:
+      name: tuple
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.1"
   typed_data:
     description:
       name: typed_data
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.3"
-  unittest:
-    description:
-      name: unittest
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.11.7"
   utf:
     description:
       name: utf
@@ -289,12 +283,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.9.7+3"
-  webdriver:
-    description:
-      name: webdriver
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.2.3"
   yaml:
     description:
       name: yaml
@@ -302,4 +290,4 @@ packages:
     source: hosted
     version: "2.1.12"
 sdks:
-  dart: ">=1.24.0 <2.0.0"
+  dart: ">=1.24.0 <2.0.0-dev.infinity"
