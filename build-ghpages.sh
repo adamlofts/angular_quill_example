@@ -4,7 +4,8 @@ set -e
 git branch -D gh-pages || true
 git checkout -b gh-pages
 
-$PUB build
+$PUB run build_runner build --release --output build
+
 git add -A build
 git commit -m "Build example"
 git push origin +gh-pages
