@@ -9,3 +9,5 @@ doc/api/
 .idea/workspace.xml
 .idea/vcs.xml
 .idea/php.xml
+
+.dart_tool
