@@ -39,11 +39,9 @@ packages:
   angular_quill:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: ef7b6473f2a8775e76b003028b9118b62d69dd6c
-      url: "https://github.com/adamlofts/angular_quill.git"
-    source: git
+      name: angular_quill
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.1.0"
   archive:
     dependency: transitive
