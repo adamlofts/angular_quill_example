@@ -15,6 +15,10 @@ class AppComponent {
     List<String> events = [];
     String html = "";
 
+    void focus() {
+        events.insert(0, "${new DateTime.now()} focus");
+    }
+
     void blur() {
         events.insert(0, "${new DateTime.now()} blur");
     }

@@ -3,6 +3,7 @@
 <quill
         [(ngModel)]="html"
         placeholder="Write something..."
+        (focus)="focus()"
         (blur)="blur()"
         (input)="input()"
 ></quill>
