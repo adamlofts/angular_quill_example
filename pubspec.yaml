@@ -8,8 +8,7 @@ environment:
   sdk: '>=2.0.0 <3.0.0'
 
 dependencies:
-  angular: ^6.0.0-alpha+1
-  angular_forms: ^2.0.0
+  angular: ^6.0.0
   angular_quill: ^0.1.3
 
 dev_dependencies:
